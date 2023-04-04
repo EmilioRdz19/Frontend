@@ -42,8 +42,8 @@
   {#each datos as articulo}
     <Articulo {articulo}>
       <div style="text-align: right">
-        <Boton documento={articulo} tipo="Modificar" coleccion="Articulos" />
-        <Boton documento={articulo} tipo="Eliminar"  coleccion="Articulos" />
+        <Boton documento={articulo} tipo="modificar" coleccion="articulos" />
+        <Boton documento={articulo} tipo="eliminar"  coleccion="articulos" />
       </div>
     </Articulo>
   {/each}
